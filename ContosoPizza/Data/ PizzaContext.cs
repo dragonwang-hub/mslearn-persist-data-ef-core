@@ -7,7 +7,7 @@ public class PizzaContext : DbContext
     public PizzaContext(DbContextOptions<PizzaContext> options) : base(options)
     {
     }
-    DbSet<Pizza> Pizzas => Set<Pizza>();
-    DbSet<Sauce> Sauces => Set<Sauce>();
-    DbSet<Topping> Toppings => Set<Topping>();
+    public DbSet<Pizza> Pizzas => Set<Pizza>();
+    public DbSet<Sauce> Sauces => Set<Sauce>();
+    public DbSet<Topping> Toppings => Set<Topping>();
 }
