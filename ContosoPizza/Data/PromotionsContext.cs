@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using ContosoPizza.Model;
+using ContosoPizza.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ContosoPizza.Data;
